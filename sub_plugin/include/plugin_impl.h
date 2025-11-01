@@ -4,6 +4,5 @@
 
 extern "C"
 {
-    __declspec(dllexport)
-    void __cdecl pluginCallFunction(ILnkInterface* interface);
+    LNK_DYN_EXPORT void LNK_CALL pluginCallFunction(ILnkInterface* interface);
 }
